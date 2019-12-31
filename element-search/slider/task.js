@@ -41,6 +41,6 @@ function changeSlide (key) {
 
 function dotSlide(key) {
 	sliderItem[index].classList.remove('slider__item_active');
-	sliderItem[i].classList.add('slider__item_active')
+	sliderItem[key].classList.add('slider__item_active')
 	index = key;
 }
